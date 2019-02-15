@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="SparksPlumbingAndHeating.MvcApplication" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Sparks.PlumbingAndHeating.UI.MvcApplication" Language="C#" %>
