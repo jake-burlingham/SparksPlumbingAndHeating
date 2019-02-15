@@ -5,11 +5,17 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sparks.PlumbingAndHeating.UI", "Sparks.PlumbingAndHeating.UI\Sparks.PlumbingAndHeating.UI.csproj", "{F792CF9D-E6C4-4466-842C-F009ABD0E415}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sparks.PlumbingAndHeating.Bootstrapper", "Sparks.PlumbingAndHeating.Bootstrapper\Sparks.PlumbingAndHeating.Bootstrapper.csproj", "{B9830C1A-067C-4464-BB19-9C69B7A51010}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sparks.PlumbingAndHeating.Bootstrapper", "Sparks.PlumbingAndHeating.Bootstrapper\Sparks.PlumbingAndHeating.Bootstrapper.csproj", "{B9830C1A-067C-4464-BB19-9C69B7A51010}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sparks.PlumbingAndHeating.Core", "Sparks.PlumbingAndHeating.Core\Sparks.PlumbingAndHeating.Core.csproj", "{262E8353-F96F-48FD-B9C8-567556B72241}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sparks.PlumbingAndHeating.Core", "Sparks.PlumbingAndHeating.Core\Sparks.PlumbingAndHeating.Core.csproj", "{262E8353-F96F-48FD-B9C8-567556B72241}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sparks.PlumbingAndHeating.Common", "Sparks.PlumbingAndHeating.Common\Sparks.PlumbingAndHeating.Common.csproj", "{342E3340-2422-45C8-9D72-E6D6DB22F83A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sparks.PlumbingAndHeating.Common", "Sparks.PlumbingAndHeating.Common\Sparks.PlumbingAndHeating.Common.csproj", "{342E3340-2422-45C8-9D72-E6D6DB22F83A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8D1C2F3F-6AF7-425F-BEB4-384E3A07B293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sparks.PlumbingAndHeating.Common.Tests", "Sparks.PlumbingAndHeating.Common.Tests\Sparks.PlumbingAndHeating.Common.Tests.csproj", "{AC6CA177-06B5-4562-B5E8-5C9B6C08CE53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrapper", "Bootstrapper", "{DA1645BC-1949-4040-B7C2-08750D611B3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +39,17 @@ Global
 		{342E3340-2422-45C8-9D72-E6D6DB22F83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{342E3340-2422-45C8-9D72-E6D6DB22F83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{342E3340-2422-45C8-9D72-E6D6DB22F83A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC6CA177-06B5-4562-B5E8-5C9B6C08CE53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6CA177-06B5-4562-B5E8-5C9B6C08CE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6CA177-06B5-4562-B5E8-5C9B6C08CE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6CA177-06B5-4562-B5E8-5C9B6C08CE53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9830C1A-067C-4464-BB19-9C69B7A51010} = {DA1645BC-1949-4040-B7C2-08750D611B3E}
+		{AC6CA177-06B5-4562-B5E8-5C9B6C08CE53} = {8D1C2F3F-6AF7-425F-BEB4-384E3A07B293}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {201793A9-E34C-4E01-8A1A-594316F0A65F}
