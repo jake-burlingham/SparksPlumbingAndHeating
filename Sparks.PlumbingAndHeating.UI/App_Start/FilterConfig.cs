@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace SparksPlumbingAndHeating
+namespace Sparks.PlumbingAndHeating.UI
 {
 	public class FilterConfig
 	{

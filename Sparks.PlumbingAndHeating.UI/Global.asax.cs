@@ -1,6 +1,5 @@
 ﻿using Ninject;
 using Ninject.Web.Common.WebHost;
-using SparksPlumbingAndHeating;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;

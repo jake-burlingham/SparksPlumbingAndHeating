@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sparks.PlumbingAndHeating.C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8D1C2F3F-6AF7-425F-BEB4-384E3A07B293}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sparks.PlumbingAndHeating.Common.Tests", "Sparks.PlumbingAndHeating.Common.Tests\Sparks.PlumbingAndHeating.Common.Tests.csproj", "{AC6CA177-06B5-4562-B5E8-5C9B6C08CE53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sparks.PlumbingAndHeating.Common.Tests", "Sparks.PlumbingAndHeating.Common.Tests\Sparks.PlumbingAndHeating.Common.Tests.csproj", "{AC6CA177-06B5-4562-B5E8-5C9B6C08CE53}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Crosscutting", "Crosscutting", "{65F07D43-F5A3-4E61-AACE-9B0A174F3975}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{97D3FF3B-2AB1-410C-B47E-B08938118ABF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{F792CF9D-E6C4-4466-842C-F009ABD0E415} = {97D3FF3B-2AB1-410C-B47E-B08938118ABF}
 		{262E8353-F96F-48FD-B9C8-567556B72241} = {65F07D43-F5A3-4E61-AACE-9B0A174F3975}
 		{342E3340-2422-45C8-9D72-E6D6DB22F83A} = {65F07D43-F5A3-4E61-AACE-9B0A174F3975}
 		{AC6CA177-06B5-4562-B5E8-5C9B6C08CE53} = {8D1C2F3F-6AF7-425F-BEB4-384E3A07B293}

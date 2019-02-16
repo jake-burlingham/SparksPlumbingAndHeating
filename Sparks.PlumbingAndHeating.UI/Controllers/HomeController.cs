@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace SparksPlumbingAndHeating.Controllers
+namespace Sparks.PlumbingAndHeating.UI.Controllers
 {
 	public class HomeController : Controller
 	{
