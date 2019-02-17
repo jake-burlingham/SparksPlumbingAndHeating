@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle( "Sparks.PlumbingAndHeating.UI" )]
+[assembly: AssemblyTitle( "Sparks.PlumbingAndHeating.UI.Tests" )]
 [assembly: AssemblyDescription( "" )]
 [assembly: AssemblyConfiguration( "" )]
 [assembly: AssemblyCompany( "" )]
-[assembly: AssemblyProduct( "Sparks.PlumbingAndHeating.UI" )]
+[assembly: AssemblyProduct( "Sparks.PlumbingAndHeating.UI.Tests" )]
 [assembly: AssemblyCopyright( "Copyright ©  2019" )]
 [assembly: AssemblyTrademark( "" )]
 [assembly: AssemblyCulture( "" )]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible( false )]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid( "9bbc94d2-dd36-4c73-b302-8fb93538c130" )]
+[assembly: Guid( "d80da7e6-6ba8-4c5e-9daf-0aece376fddf" )]
 
 // Version information for an assembly consists of the following four values:
 //
