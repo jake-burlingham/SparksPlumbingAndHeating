@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Web.Mvc;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sparks.PlumbingAndHeating.UI;
+﻿using System.Web.Mvc;
+using NUnit.Framework;
 using Sparks.PlumbingAndHeating.UI.Controllers;
 
 namespace Sparks.PlumbingAndHeating.UI.Tests.Controllers
 {
-	[TestClass]
+	[TestFixture]
 	public class HomeControllerTest
 	{
-		[TestMethod]
+		[Test]
 		public void Index()
 		{
 			// Arrange
@@ -25,7 +20,7 @@ namespace Sparks.PlumbingAndHeating.UI.Tests.Controllers
 			Assert.IsNotNull( result );
 		}
 
-		[TestMethod]
+		[Test]
 		public void About()
 		{
 			// Arrange
@@ -38,7 +33,7 @@ namespace Sparks.PlumbingAndHeating.UI.Tests.Controllers
 			Assert.AreEqual( "Your application description page.", result.ViewBag.Message );
 		}
 
-		[TestMethod]
+		[Test]
 		public void Contact()
 		{
 			// Arrange
