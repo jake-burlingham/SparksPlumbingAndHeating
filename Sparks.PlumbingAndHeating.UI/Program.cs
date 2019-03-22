@@ -1,9 +1,9 @@
-using Microsoft.AspNetCore;
+﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
 namespace Sparks.PlumbingAndHeating.UI
 {
-	public class Program
+    public class Program
     {
         public static void Main(string[] args)
         {
